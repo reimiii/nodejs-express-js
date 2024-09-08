@@ -25,15 +25,17 @@
   },
   "homepage": "https://github.com/reimiii/nodejs-express-js#readme",
   "dependencies": {
-    "express": "^4.18.3"
+    "express": "^4.18.3",
+    "express-fileupload": "^1.5.1",
+    "cookie-parser": "^1.4.6"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
-    "babel-jest": "^29.7.0",
-    "jest": "^29.7.0",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
     "supertest": "^6.2.4"
   }
 }
